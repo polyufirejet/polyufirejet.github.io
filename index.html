@@ -8,46 +8,56 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Computer-Vision Enhanced Water-Stream Control and Fire Suppression for Industrial Firefighting Robots</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
 
     <link href="./static/css/bulma.min.css" rel="stylesheet">
     <link href="./static/css/bulma-carousel.min.css" rel="stylesheet">
     <link href="./static/css/bulma-slider.min.css" rel="stylesheet">
     <link href="./static/css/fontawesome.all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
-          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
     <link href="./static/css/index.css" rel="stylesheet">
-    <link href="./static/images/favicon.ico" rel="icon">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+    <link href="./static/images/favicon.ico" rel="icon">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="./static/js/fontawesome.all.min.js"></script>
     <script src="./static/js/bulma-carousel.min.js"></script>
     <script src="./static/js/bulma-slider.min.js"></script>
     <script src="./static/js/index.js"></script>
+
     <style>
         .special-font {
             font-family: 'Caveat', cursive;
             font-size: 24px;
         }
-
-        .video-container {
+        .visual-media {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 100%;
+        }
+        .award-caption {
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #4a4a4a;
+        }
+        .award-box {
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            height: 100%;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            justify-content: flex-end;
         }
-
-        .video-item {
-            width: 18%;
-            margin: 5px;
-            text-align: center;
-        }
-
-        video {
+        .award-img {
             width: 100%;
             height: auto;
+            border-radius: 4px;
+            margin-bottom: auto; /* Push caption to bottom */
         }
     </style>
 </head>
@@ -114,192 +124,189 @@ Language Model and Pre-trained Video Diffusion Model</h1>
 
 
 
+
 <section class="section">
-    <div class="container is-max-desktop is-centered has-text-centered">
-
-        <h2 class="title">Fig. 4</h2>
-<!--         <p>All videos are 1080p, 24 fps.</p> -->
-        <br/>
-        <div class="columns is-centered">
-            <!-- Visual Effects. -->
-            <div class="column">
-                <div class="content">
-
-                    <p class="special-font">
-
-                    </p>
-                    <video autoplay="" controls="" height="100%" id=""
-                           loop=""
-                           muted="" playsinline="">
-                        <source src="./static/Video/4-1.mp4"
-                                type="video/mp4">
-                    </video>
-                    <hr>
-                    
-                    <p class="special-font">
-
-                    </p>
-                    <video autoplay="" controls="" height="100%" id=""
-                           loop=""
-                           muted="" playsinline="">
-                        <source src="./static/Video/4-3.mp4"
-                                type="video/mp4">
-                    </video>
-                    <hr>
-                    <p class="special-font">
-
-                    </p>
-                    <video autoplay="" controls="" height="100%" id=""
-                           loop="" muted="" playsinline="">
-                        <source src="./static/Video/4-5.mp4"
-                                type="video/mp4">
-                    </video>
-                    <hr>
-                    <p class="special-font">
-
-                    </p>
-                    <video autoplay="" controls="" height="100%" id="" loop=""
-                           muted="" playsinline="">
-                        <source src="./static/Video/4-7.mp4"
-                                type="video/mp4">
-
-                    </video>
-                </div>
+    <div class="container is-max-desktop">
+        <div class="columns is-centered is-vcentered">
+            <div class="column is-6 has-text-centered">
+                <h2 class="title is-4">System Overview</h2>
+                <img src="./static/images/1-image.jpg" class="visual-media" alt="Firefighting Robot Appearance">
+                <p class="content mt-2">Fig 1. The Firefighting Robot Platform.</p>
             </div>
-            <!--/ Visual Effects. -->
-
-            <!-- Matting. -->
-            <div class="column">
-                <div class="columns is-centered">
-                    <div class="column content">
-
-                        <p class="special-font">
-
-                        </p>
-                        <video autoplay="" controls="" height="100%" id="" loop=""
-                               muted="" playsinline="">
-                            <source src="./static/Video/4-2.mp4"
-                                    type="video/mp4">
-                        </video>
-                        <hr>
-                        
-                        <p class="special-font">
-
-                        </p>
-                        <video autoplay="" controls="" height="100%" id="" loop=""
-                               muted="" playsinline="">
-                            <source src="./static/Video/4-4.mp4"
-                                    type="video/mp4">
-                        </video>
-                        <hr>
-                        <p class="special-font">
-
-                        </p>
-                        <video autoplay="" controls="" height="100%" id=""
-                               loop="" muted="" playsinline="">
-                            <source src="./static/Video/4-6.mp4"
-                                    type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-
+            <div class="column is-6 has-text-centered">
+                <h2 class="title is-4">Suppression Demo</h2>
+                <video autoplay controls muted loop playsinline class="visual-media">
+                    <source src="./static/Video/1-video.mp4" type="video/mp4">
+                </video>
+                <p class="content mt-2">Video 1. Autonomous Fire Suppression Demonstration.</p>
             </div>
-
-
         </div>
-
     </div>
 </section>
 
-
-
-
-<section class="section">
-    <div class="container is-max-desktop is-centered has-text-centered">
-
-        <h2 class="title">Fig. 5 and Fig. 6</h2>
-<!--         <p>All videos are 1080p, 24 fps.</p> -->
-        <br/>
-        <div class="columns is-centered">
-            <!-- Visual Effects. -->
-            <div class="column">
-                <div class="content">
-
-                    <p class="special-font">
-
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Industrial fires involve flammable materials, high-pressure equipment, and complex layouts, making efficient and safe suppression essential. Firefighting robots have great potential, but their effectiveness depends on precise visual perception. However, existing methods treat fire detection, flame segmentation, and water-jet landing point localization as separate tasks and lack a unified, collaborative perception framework. 
                     </p>
-                    <video autoplay="" controls="" height="100%" id=""
-                           loop=""
-                           muted="" playsinline="">
-                        <source src="./static/Video/5-1.mp4"
-                                type="video/mp4">
-                    </video>
-                    <hr>
-                    
-                    <p class="special-font">
-
+                    <p>
+                        To address this problem, we propose <strong>FireJet</strong>, a video-stream-based coupled visual firefighting system that integrates all three key tasks within a single framework. FireJet adopts an edge-cloud collaborative architecture: the robot uses an improved YOLO-Fire model for lightweight fire detection, while the cloud performs high-precision flame segmentation and water-jet landing-point localization based on SAM2 with automatic prompt generation. Experiments in industrial-like scenarios show that FireJet achieves stable and accurate multi-task visual perception, offering a unified and reliable visual foundation for closed-loop firefighting control.
                     </p>
-                    <video autoplay="" controls="" height="100%" id=""
-                           loop=""
-                           muted="" playsinline="">
-                        <source src="./static/Video/5-3.mp4"
-                                type="video/mp4">
-                    </video>
-                    <hr>
-                    <p class="special-font">
-
-                    </p>
-                    <video autoplay="" controls="" height="100%" id=""
-                           loop="" muted="" playsinline="">
-                        <source src="./static/Video/5-5.mp4"
-                                type="video/mp4">
-                    </video>
                 </div>
             </div>
-            <!--/ Visual Effects. -->
-
-            <!-- Matting. -->
-            <div class="column">
-                <div class="columns is-centered">
-                    <div class="column content">
-
-                        <p class="special-font">
-
-                        </p>
-                        <video autoplay="" controls="" height="100%" id="" loop=""
-                               muted="" playsinline="">
-                            <source src="./static/Video/6-2.mp4"
-                                    type="video/mp4">
-                        </video>
-                        <hr>
-                        
-                        <p class="special-font">
-
-                        </p>
-                        <video autoplay="" controls="" height="100%" id="" loop=""
-                               muted="" playsinline="">
-                            <source src="./static/Video/6-4.mp4"
-                                    type="video/mp4">
-                        </video>
-                        <hr>
-                        <p class="special-font">
-
-                        </p>
-                        <video autoplay="" controls="" height="100%" id=""
-                               loop="" muted="" playsinline="">
-                            <source src="./static/Video/6-6.mp4"
-                                    type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-
-            </div>
-
-
         </div>
-
     </div>
 </section>
+
+<section class="section">
+    <div class="container is-max-desktop has-text-centered">
+        <h2 class="title is-3">Honors & Awards</h2>
+        <br>
+        
+        <div class="columns is-centered">
+            <div class="column is-6">
+                <div class="award-box">
+                    <img src="./static/images/2-1.jpg" class="award-img" alt="2023 Innovation Gold Award">
+                    <p class="award-caption">Gold Award, 2023 China International College Students' Innovation Competition</p>
+                </div>
+            </div>
+            <div class="column is-6">
+                <div class="award-box">
+                    <img src="./static/images/2-3.jpg" class="award-img" alt="2025 GBA Innovation Award">
+                    <p class="award-caption">Tech Invention Grand Prize, 2025 GBA Innovation Award</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-centered">
+            <div class="column is-6">
+                <div class="award-box">
+                    <img src="./static/images/2-2.jpg" class="award-img" alt="2025 Geneva Invention Gold">
+                    <p class="award-caption">Gold Medal, 2025 Geneva International Exhibition of Inventions</p>
+                </div>
+            </div>
+            <div class="column is-6">
+                <div class="award-box">
+                    <img src="./static/images/2-4.jpg" class="award-img" alt="2026 CES Innovation">
+                    <p class="award-caption">Best of Innovation, CES 2026 Las Vegas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section hero is-light">
+    <div class="container is-max-desktop has-text-centered">
+        <h2 class="title is-3">Experimental Results (Fig. 4)</h2>
+        <br/>
+        
+        <div class="columns is-centered is-mobile is-multiline">
+            <div class="column is-3-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/4-1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-3-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/4-2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-3-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/4-3.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-3-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/4-4.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="columns is-centered is-mobile is-multiline">
+            <div class="column is-3-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/4-5.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-3-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/4-6.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-3-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/4-7.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop has-text-centered">
+        <h2 class="title is-3">Comparative Analysis (Fig. 5 & 6)</h2>
+        <br/>
+        
+        <div class="columns is-centered is-mobile is-multiline">
+            <div class="column is-4-desktop is-6-mobile">
+                <p class="special-font">Method A</p>
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/5-1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-4-desktop is-6-mobile">
+                <p class="special-font">Method B</p>
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/5-3.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-4-desktop is-6-mobile">
+                <p class="special-font">Ours</p>
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/5-5.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="column is-4-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/6-2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-4-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/6-4.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column is-4-desktop is-6-mobile">
+                <video autoplay controls muted loop playsinline width="100%">
+                    <source src="./static/Video/6-6.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content has-text-centered">
+                    <p>
+                        This website template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
 
 
 
